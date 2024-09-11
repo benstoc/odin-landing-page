@@ -8,18 +8,21 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    padding: 0px 200px
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
-    padding: 16px;
+    justify-content: space-between;
     align-items: center;
+    padding: 16px 0px;
+    gap: 64px;
 }
 
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: bold;
 }
 
 .link-list {
@@ -30,8 +33,47 @@ body {
     gap: 24px;
 }
 
-a {
-    color: #E5E7EB;
+a,
+.hero-sub {
+    color: #b6b6b6;
     font-size: 18px;
     text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    padding: 100px 0px 130px 0px;
+    gap: 64px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    max-width: 450px;
+}
+
+.hero-text div {
+    margin-bottom: 8px;
+}
+
+.hero-main {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.sign-up {
+    color: white;
+    background-color: #3882F6;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 24px;
+}
+
+.hero img {
+    width: 400px;
+    height: auto;
+    flex: 0 0 auto
 }
