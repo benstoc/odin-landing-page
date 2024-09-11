@@ -77,3 +77,42 @@ a,
     height: auto;
     flex: 0 0 auto
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 32px;
+}
+
+.block-container {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-bottom: 100px;
+}
+
+.block {
+    width: 125px;
+}
+
+.block-img {
+    height: 125px;
+    width: 125px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    margin-bottom: 4px;
+}
+
+.block-subtext {
+    text-wrap: wrap;
+    text-align: center;
+    font-size: 12px;
+    color: #949494;
+}
