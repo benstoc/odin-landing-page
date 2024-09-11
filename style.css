@@ -116,3 +116,28 @@ a,
     font-size: 12px;
     color: #949494;
 }
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 0px;
+}
+
+.quote-container {
+    width: 550px;
+    margin: auto;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.author {
+    color: #1F2937;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 4px;
+}
