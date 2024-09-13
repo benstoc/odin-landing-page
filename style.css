@@ -16,12 +16,23 @@ button {
     cursor: pointer;
 }
 
+.text-dark {
+    color: #1F2937;
+}
+
+.text-light {
+    color: #F9FAF8;
+}
+
+.dark-back {
+    background-color: #1F2937;
+}
+
 .hh-container {
     display: flex;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: #1F2937;
     width: 100%;
 }
 
@@ -35,7 +46,6 @@ button {
 }
 
 .logo {
-    color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
 }
@@ -74,7 +84,6 @@ a,
 }
 
 .hero-main {
-    color: #F9FAF8;
     font-weight: 900;
     font-size: 48px;
 }
@@ -105,7 +114,6 @@ a,
 }
 
 .info-header {
-    color: #1F2937;
     font-size: 36px;
     font-weight: 900;
     padding: 40px;
@@ -161,14 +169,12 @@ a,
 }
 
 .quote {
-    color: #1f2937;
     font-size: 36px;
     font-style: italic;
     font-weight: 200;
 }
 
 .author {
-    color: #1F2937;
     font-size: 20px;
     font-weight: bold;
     text-align: right;
@@ -212,7 +218,6 @@ a,
 
 .footer {
     color: #b6b6b6;
-    background-color: #1F2937;
     font-size: 14px;
     text-align: center;
     padding: 32px;
